@@ -12,31 +12,33 @@ const Review = () => {
 
 
 
+	const checkNumber = (number) => {
+		if (number > people.length - 1) {
+			return 0;
+		} 
+		
+		if (number < 0) {
+			return people.length - 1;
+		}
+		
+		return number;
+	};
+
 	const prevPerson = () => {
 		setIndex((index) => {
-			if (index >= 0) {
-				let newIndex = index - 1;
-				return newIndex;
-			} else {
-				return people.length - 1;
-			}
+			let newIndex = index - 1;
+			return checkNumber(newIndex);
 		});
 	};
 	const nextPerson = () => {
 		setIndex((index) => {
-			if (index >= people.length - 1) {
-				return 0;
-			} else {
-				let newIndex = index + 1;
-				return newIndex; 
-			}
+			let newIndex = index - 1;
+			return checkNumber(newIndex);
 		});
 	};
 
-
-	
  	return (
-		 <article className="review">
+		<article className="review">
 			<div className="img-container">
 				<img src={image} alt={name} className="person-img" />
 				<span className="quote-icon">
@@ -55,14 +57,14 @@ const Review = () => {
 				</button>
 				
 			</div>
-
-
+			
 		</article>
-	 );
+	);
 };
 
 
 
 export default Review;
+
 
 
