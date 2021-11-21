@@ -38,11 +38,16 @@ const Review = () => {
 	};
 
 	const randomPerson = () => {
-		let randomNumver = Math.floor(Math.random() * people.length);
+		let randomNumber = Math.floor(Math.random() * people.length);
 		// 0 até 0,999... * array
-		console.log(randomNumver);
+		//console.log(randomNumber);
 
-		setIndex(randomNumver);
+		if (randomNumber === index) {
+			randomNumber += 1;
+		}
+		console.log('Núrmero randômico: ', randomNumber);
+
+		setIndex(checkNumber(randomNumber));
 	};
 
 

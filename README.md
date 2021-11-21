@@ -2,13 +2,11 @@
 
 <br />
 
-O projeto consome dados de uma API da internet e renderiza os dados na forma de cartões com informações de viagens de turismo.
+O projeto consome dados de uma API de um arquivo e renderiza estes dados na forma de cartões com informações postadas por usuários.
 
 <br />
 
-O app ainda apresenta como funcionalidades a possibilidade de condicionar a renderização do App a partir do estado dos dados sendo consumidos, seja mostrando mensagem de carregamento durante a ação assíncrona de Fetch, seja ao se esvaziar os dados de apresentação.
-Ademais, é possível togar a renderização individual de cada cartão turístico para apresentar mais ou menos informações sobre a localidade.
-Finalmente, há ainda possibilidade de excluir do cardápio de viagens as indesejadas.
+Como funcionalidades, o App permite iterar pelas postagens com botões em ambas as direções, **Next** e **Prev**, além permitir que se traga uma postagem de forma randômica, porém usando de validação para evitar posts randômicos repetidos em sequência.
 
 <br />
 
@@ -22,21 +20,11 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### :
+### Imagem da tela principal do App:
 
-![Imagem da tela do app durante a requisição de dados de uma API na Web](/public/images/)
-
-<br />
-
-### :
-
-![Imagem da tela principal do App mostrando uma lista de rotas turísticas](/public/images/)
+![Imagem da tela do app](/public/images/tela-final-do-projeto.png)
 
 <br />
-
-### :
-
-![Imagem da tela do App após a exclusão da lista de todas as rotas turísticas](/public/)
 
 <br />
 <br />
