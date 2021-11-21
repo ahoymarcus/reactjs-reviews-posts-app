@@ -1,4 +1,4 @@
-# Tours App - React-JS
+# React-JS Reviews Post App - React-JS
 
 <br />
 
