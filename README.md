@@ -22,21 +22,21 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### Imagem da tela do app durante a requisição de dados de uma API na Web:
+### :
 
-![Imagem da tela do app durante a requisição de dados de uma API na Web](/public/images/tela-de-carregamento.png)
-
-<br />
-
-### Imagem da tela principal do App mostrando uma lista de rotas turísticas para serem consultadas:
-
-![Imagem da tela principal do App mostrando uma lista de rotas turísticas](/public/images/tela-principal.png)
+![Imagem da tela do app durante a requisição de dados de uma API na Web](/public/images/)
 
 <br />
 
-### Imagem da tela do App após a exclusão da lista de todas as rotas turísticas:
+### :
 
-![Imagem da tela do App após a exclusão da lista de todas as rotas turísticas](/public/images/no-tours-left-screen.png)
+![Imagem da tela principal do App mostrando uma lista de rotas turísticas](/public/images/)
+
+<br />
+
+### :
+
+![Imagem da tela do App após a exclusão da lista de todas as rotas turísticas](/public/)
 
 <br />
 <br />
