@@ -12,6 +12,29 @@ const Review = () => {
 
 
 
+	const prevPerson = () => {
+		setIndex((index) => {
+			if (index >= 0) {
+				let newIndex = index - 1;
+				return newIndex;
+			} else {
+				return people.length - 1;
+			}
+		});
+	};
+	const nextPerson = () => {
+		setIndex((index) => {
+			if (index >= people.length - 1) {
+				return 0;
+			} else {
+				let newIndex = index + 1;
+				return newIndex; 
+			}
+		});
+	};
+
+
+	
  	return (
 		 <article className="review">
 			<div className="img-container">
@@ -23,7 +46,15 @@ const Review = () => {
 			<h4 className="author">{name}</h4>
 			<p className="job">{job}</p>
 			<p className="info">{text}</p>
-		
+			<div className="button-container">
+				<button className="prev-btn" onClick={prevPerson} >
+					<FaChevronLeft />
+				</button>
+				<button className="next-btn" onClick={nextPerson} >
+					<FaChevronRight />
+				</button>
+				
+			</div>
 
 
 		</article>
